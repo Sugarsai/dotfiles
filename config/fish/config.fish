@@ -32,3 +32,16 @@ set -gx BROWSER /usr/bin/firefox
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
+
+# Set colors for different elements in Fish shell
+set -g fish_color_command blue
+set -g fish_color_command_persistent blue
+set -g fish_color_red red
+set -g fish_color_green green
+set -g fish_color_yellow yellow
+set -g fish_color_cyan cyan
+set -g fish_color_param yellow 
+set -g fish_color_operator yellow 
+set -g fish_color_pager_title yellow
+set -g fish_color_error red
+
